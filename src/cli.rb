@@ -1,5 +1,5 @@
 require 'thor'
-require_relative './interactive'
+require_relative './menu'
 
 class Cli < Thor
   desc "start", "start routinely in interactive mode"
